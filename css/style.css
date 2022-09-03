@@ -1,0 +1,29 @@
+*{
+   box-sizing: border-box;
+}
+body {
+   margin: 0;
+   padding: 0;
+}
+.container {
+   margin: auto;
+   width: 80%;
+}
+.text {
+   text-align: center;
+}
+.calc-wrapper {
+   display: flex;
+   justify-content: center;
+}
+.calc-main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+  border: 1px solid #777;
+  border-radius: 5px;
+  width: 500px;
+   height: 100px;
+   gap: 3px;
+}
